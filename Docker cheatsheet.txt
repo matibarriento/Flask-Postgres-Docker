@@ -1,0 +1,21 @@
+Docker cheatsheet
+
+docker-compose.exe down
+docker-compose.exe up -d
+docker-compose run --rm web /usr/local/bin/python create_db.py
+
+docker-machine.exe ip
+http://192.168.99.100/
+
+
+docker-compose.exe stop
+
+docker-compose run --rm --service-ports web
+
+
+docker-compose.exe stop
+docker-compose.exe up -d
+
+
+OJO con 
+docker-compose.exe down
