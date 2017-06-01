@@ -1,11 +1,31 @@
-## Dockerizing Flask With Compose and Machine - From Localhost to the Cloud
+## Dockerizing with Compose and Machine 
 
-Featuring:
+## Instalation
+#### Install Docker for Windows
+https://docs.docker.com/docker-for-windows/install/
+  
+  
+#### Install Docker Toolbox if yoy are on Windows 7, 8 or 8.1 or if you can't install Docker for Windows
+https://docs.docker.com/toolbox/toolbox_install_windows/
 
-- Docker v1.9.0
-- Docker Compose v1.5.0
-- Docker Machine v0.5.0
+## Build
+#### Docker for Windows
+1. Select Linux containers on the docker tray icon
+2. Open a Powershell instance
+3. Go to the repo path.
+4. Run
+  
+``` bash
+docker-compose build
+```
+5. Wait for it
 
-**Check out the awesome blog post here > https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/**
-
-Cheers!
+#### Docker Toolbox
+1. Open Docker Quickstart Terminal
+2. Go to the repo path.
+3. Run
+  
+``` bash
+docker-compose build
+```
+4. Wait for it
