@@ -2,7 +2,7 @@ Docker cheatsheet
 
 docker-compose.exe down
 docker-compose.exe up -d
-docker-compose run --rm web /usr/local/bin/python create_db.py
+docker-compose run --rm web python create_db.py
 
 docker-machine.exe ip
 
