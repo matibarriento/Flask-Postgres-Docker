@@ -10,8 +10,20 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 
 ## Build
 #### Docker for Windows
-1. Select Linux containers on the docker tray icon
-2. Open a Powershell instance
+1. Clone or download the repo
+2. Select Linux containers on the docker tray icon
+3. Open a Powershell instance
+4. Go to the repo path.
+5. Run
+  
+``` bash
+docker-compose build
+```
+6. Wait for it
+
+#### Docker Toolbox
+1. Clone or download the repo
+2. Open Docker Quickstart Terminal
 3. Go to the repo path.
 4. Run
   
@@ -19,13 +31,3 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 docker-compose build
 ```
 5. Wait for it
-
-#### Docker Toolbox
-1. Open Docker Quickstart Terminal
-2. Go to the repo path.
-3. Run
-  
-``` bash
-docker-compose build
-```
-4. Wait for it
