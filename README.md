@@ -1,7 +1,7 @@
 ## Dockerizing with Compose and Machine 
 
 ## Instalation
-#### Install Docker for Windows
+#### Install Docker for Windows 10
 https://docs.docker.com/docker-for-windows/install/
   
   
